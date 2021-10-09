@@ -60,9 +60,9 @@ public class Country
         double ratio_deceased_population =
             fixed_count["infected"] / fixed_count["good"];
        
-        probability.Add("infect", 0.5);
-        probability.Add("death", 0.05);
-        probability.Add("cure", 0.05);
+        probability.Add("infect", 0.2);
+        probability.Add("death", 0.06);
+        probability.Add("cure", 0.04);
 
         return probability;
     }
